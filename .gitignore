@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# API Keys & Secrets
+scripts/api_key.txt
+*.pem
+*.key
+.env
+.env.local
+
+# Audio files (optional - uncomment if you want to exclude test audio)
+# *.wav
+# *.mp3
+# *.flac
+
+# Model caches
+.cache/
+*.onnx
+*.gguf
+models/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Project specific
+kodok/speech-to-speech/.git/
+*.bak
+*.orig
+
+# Claude Code settings
+.claude/
+
+# Secret files
+.api_key
+
+# Debug audio outputs
+debug_tts_out.mp3
+debug_tts_out.wav

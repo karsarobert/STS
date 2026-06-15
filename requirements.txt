@@ -1,0 +1,24 @@
+# Speech-to-Speech Core
+# Telepítsd a speech-to-speech library-t külön: cd kodok/speech-to-speech && pip install -e .
+
+# Audio
+sounddevice>=0.4.6
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Networking
+websockets>=12.0
+httpx>=0.27.0
+
+# Utilities
+rich>=13.0.0
+
+# Optional: Ha edge-tts-t használsz TTS-nek
+edge-tts>=6.1.0
+
+# Optional: Ha WebRTC VAD-ot használsz
+# webrtcvad>=2.0.10
+
+# Optional: Jupyter support
+# jupyter>=1.0.0
+# ipywidgets>=8.0.0
